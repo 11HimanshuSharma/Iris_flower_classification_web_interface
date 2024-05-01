@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Iris Flower Classifier</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Iris Flower Classifier</h1>
+      <div class="underline"></div>
+    </div>
+    <!-- <div class="circle"></div> -->
+    <form method="POST">
+      <input type="number" name="sepal_length" placeholder="Sepal Length (cm)" step="0.01" required>
+      <input type="number" name="sepal_width" placeholder="Sepal Width (cm)" step="0.01" required>
+      <input type="number" name="petal_length" placeholder="Petal Length (cm)" step="0.01" required>
+      <input type="number" name="petal_width" placeholder="Petal Width (cm)" step="0.01" required>
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+    <div class="predicted-species-div">
+      <h2 class="predicted-species">Predicted Species: {{ prediction_text }}</h2>
+
+    </div>
+    {% endif %}
+  </div>
+
+
+  <script src="/static/script.js"></script>
+</body>
+
+</html>

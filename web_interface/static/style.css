@@ -1,0 +1,119 @@
+body {
+  background-image: url(back.jpg);
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-size: cover; 
+  padding: 20px;
+  text-align: center;
+  
+} 
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+h1 {
+  color: #7e6b6b;
+  font-size: 40px;
+}
+
+form input[type="number"] {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid rgba(162, 0, 255, 0.892);
+  margin-right: 38px;
+}
+input[type="number"]:focus{
+  outline: none;
+  box-shadow: 0px 4px 12px rgba(162, 0, 255, 0.255);
+} 
+
+
+.title{
+  color: #de8484;
+  margin-bottom: 77px;
+  font-family: cursive;
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+} 
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+} */
+
+
+
+.error {
+  color: red;
+}
+.circle{
+  height: 200px;
+  width: 1050px;
+  background-color: #7b34ff4d;
+  filter: blur(70px);
+  position: absolute;
+  left: 205px;
+  top: 10%;
+  border-radius: 50%;
+}
+#predicted-species {
+ 
+  color: rgb(160, 171, 255); 
+  font-size: 25px; 
+  
+}
+.predicted-species-div{
+  padding: 0px;
+  background-color: #23292c;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 88px;
+  color: #de8484;
+  border-radius: 105px;
+  border: 9px solid white;
+}
+
+.predicted-species-div {
+  border: 2px solid transparent; 
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: rgba(240, 240, 240, 0.8); 
+}
+
+.predicted-species {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.underline{
+  border: 2px solid white;
+width: 35%;
+margin-left: 459px;
+}
